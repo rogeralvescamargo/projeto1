@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af796cd719.js" crossorigin="anonymous"></script>
+    <title>Teste JS</title>
+</head>
+<body>
+    <button class="abreFecha">
+        <i class="abreMenu fa-solid fa-circle-right"></i>
+        <i class="fechaMenu fa-solid fa-circle-left"></i>
+    </button>
+    <ul class="menuHam">
+
+        <li><a class="itemHam" onclick="paragraf()">criar paragrafo</a></li>
+        <li><a class="itemHam" onclick="paragraf()">criar paragrafo</a></li>
+        <li><a class="itemHam" onclick="removeElementsByClass()">limpar bagunça</a></li>
+    </ul>
+    <div id="blocoForm">
+     <form action="/formes" method="post">
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="nome">Insira o nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="idade">Insira a sua idade:</label>
+            <input type="number" name="idade" id="idade">
+            <hr>
+            <input type="submit" value="Enviar">
+        </fieldset>
+     </form>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>

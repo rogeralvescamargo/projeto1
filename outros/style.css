@@ -1,0 +1,68 @@
+.abreFecha {
+    position: fixed;
+    z-index: 100;
+    left: 0rem;
+    padding: 4px;
+    background: white;
+    cursor: pointer;
+    margin-top: 55px;
+    border-radius: 10px;
+  }
+
+  .abreFecha:hover{
+    filter: invert(1);
+  }
+
+  li{ 
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: black;
+    border-width: 1px;
+    padding: 0px 2px 3px 5px;
+  }
+
+  .fechaMenu {
+    display: none;
+
+  }
+
+  .menuHam {
+    position: fixed;
+    transform: translateX(-110%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(154, 159, 185);
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 4rem;
+    width: 200px;
+    height: 100px;
+    text-align: justify;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .showMenu {
+    transform: translateX(0);
+  }
+
+  .menuHam .showMenu .abreFecha{
+    position: relative;
+    transform: translateX(0);
+  }
+
+#blocoForm{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+
